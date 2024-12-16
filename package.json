@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "discord-protos": "^1.0.5",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
