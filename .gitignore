@@ -1,3 +1,5 @@
 node_modules/
 gifs/
 mp4s/
+.env
+.DS_Store
