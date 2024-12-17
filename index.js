@@ -29,7 +29,7 @@ async function decodeProtobuf(protobuf) {
 async function getProtobuf() {
     var token = process.env.DISCORD_TOKEN;
     if (!token) {
-        throw new Error('Environment variable TOKEN is not set');
+        throw new Error('Environment variable DISCORD_TOKEN is not set');
     }
     const url = 'https://discord.com/api/v9/users/@me/settings-proto/2';
     const headers = {
